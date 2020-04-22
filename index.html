@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Veins Collapsed - Home</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="./images/Veins Collapsed.png">
+  <!--Importing the font-->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+
+  <script src="https://shoppy.gg/api/embed.js"></script>
+
+  <!-- import the webpage's javascript file -->
+  <script src="/script.js" defer></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- import the webpage's stylesheet -->
+
+  <link rel="stylesheet" href="./stylesheets/main.css">
+
+  <!--timer-->
+  <script>
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('timer').innerHTML =
+        h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) { i = "0" + i };
+      return i;
+    }
+  </script>
+  <!--timer-->
+</head>
+
+<body onload="startTime()">
+
+  <!--Background Video-->
+  <video autoplay muted loop id="bgVideo">
+    <source src="./videos/video.mp4" type="video/mp4">
+  </video>
+  <!--End of Background Video-->
+
+  <!--Audio and Script-->
+
+
+  <audio  id="audio" loop autoplay preload>
+    <source src="./audio/music.mp3" type="audio/mpeg" /> 
+  </audio>
+  <script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.3;
+  </script>
+  <!--End of Audio and script-->
+
+
+  <hr style="margin-top:-5px;width:330px; float:left;background-color:#222f3e;">
+
+
+  <div id="center">
+    <h1>Veins Collapsed</h1>
+    <h2>Houston787#6113</h2>
+    <h2>Site still on beta</h2><br>
+    <h3><a href="shop.html" class="vst">Visit</a></h3>
+    <hr
+      style="	border: 0;height: 1px;background-image: linear-gradient(to right, rgba(13, 18, 24, 0), rgba(13, 18, 24, 0.75), rgba(13, 18, 24, 0));">
+    <div class="animated fadeInUp">
+
+    </div>
+  </div>
+
+  <h3 id="timer" style="color: white;"></h3>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/marquee.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

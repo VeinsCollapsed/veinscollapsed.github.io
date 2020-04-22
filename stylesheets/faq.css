@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Rubik', sans-serif;
+letter-spacing: 1.2px;
+text-align: center;
+background-color: grey;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+  background: rgba(255,255,255,0);
+  border-radius: 12px;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  color: #FDA7DF;
+	transition: color .24s;
+}
+.topnav a:hover{
+	color: #ef5777;
+}
+
+.hrline {
+  text-decoration: none;
+  height: 2px;
+background: linear-gradient(124deg, #222f3e, #ef5777, #222f3e, #ef5777, #222f3e, #ef5777, #222f3e, #ef5777, #222f3e);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+video
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	transition: 1s opacity;
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+}
