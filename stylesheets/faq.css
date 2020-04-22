@@ -27,12 +27,13 @@ color: white;
   text-decoration: none;
   font-size: 17px;
   border-bottom: 3px solid transparent;
-  color: #FDA7DF;
+ color: #FDA7DF;
 	transition: color .24s;
 }
 .topnav a:hover{
 	color: #ef5777;
 }
+
 
 .hrline {
   text-decoration: none;
