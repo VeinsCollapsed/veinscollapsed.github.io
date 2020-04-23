@@ -1,90 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://shoppy.gg/api/embed.js"></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>  
+  <body>
+    <div class="header">
+        <h1  style="letter-spacing: 2px;">Veins Collapsed</h1>
+       <div class="topnav">
+            <a href="index.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+            </div>
+      </div>
+      <br>
+      <div style="text-align: center; letter-spacing: 1px;" class="alert alert-success">
+        <strong>Note: </strong> In order to pay with skrill or steam wallet contact me with the product name on discord: Houston787#6113
+      </div>
+      <div class="content" style="padding:20px;">
+        <div class="row d-flex justify-content-center" >
+            <div class="col-sm-3">
+               <h2 >Footsylum Accounts</h2> 
+               <p class="desc">Footasylum accounts with cash vouchers so that you guys can order clothes,bags,shoes, 
+                 hats and other stuff like that for free.</p>
+               <p class="price">&pound 1.99</p>
+              <center><a  data-shoppy-product="w4y89Fk" class="btn" href="#">Purchase</a></center>
+            </div>
+            <div class="col-sm-3">
+                <h2>Spotify Premium Accounts</h2> 
+                <p class="desc">Premium Spotify Accounts so that you can enjoy high quality music without any ads. 
+                 </p>
+                <p class="price">&pound 1.99</p>
+                <center><button class="btn2">Out of stock</button></center>
+            </div>
+            <div class="col-sm-3">
+                <h2>Netflix Account Lifetime subscription</h2> 
+                <p class="desc">
+                  <strong style="color: black;">NO ADS VERSION - ANDROID ONLY</strong> Lifetime subscription with no ads you basically never pay again.
+                  Contact on discord to buy.ID Below
+                </p>
+                <p class="price">&pound 29.99</p>
+                <center><a  class="btn">Houston787#6113</a></center>
+            </div>
+             
+            <div class="col-sm-3">
+              <h2>Netflix Account Lifetime subscription</h2> 
+              <p class="desc">
+                <strong style="color: black;">FEW ADS VERSION - ANDROID ONLY</strong> Lifetime subscription with no ads you basically never pay again.
+              </p>
+              <p class="price">&pound 19.99</p>
+              <center><button class="btn2">Out of stock</button></center>
+            </div>
+            <div class="col-sm-3">
+              <h2>GTA V PC Hacks </h2> 
+              <p class="desc">
+                <strong style="color: black;">We are not responsible if you get banned - Has a High ban risk.</strong> Hacks with which you can do whatever you want godmode,change climate etc. Has a high ban risk so dont use your main.
+              </p>
+              <p class="price">&pound 9.99</p>
+              <center><button class="btn2">Out of stock</button></center>
+            </div>
+   
+            <div class="col-sm-3">
+              <h2>GTA V PC Money Mod External </h2> 
+              <p class="desc">
+                <strong style="color: black;">We are not responsible if you get banned - Has a low ban risk.</strong>  Mod with which you can add,drop money
+              </p>
+              <p class="price">&pound 7.99</p>
+              <center><button class="btn2">Out of stock</button></center>
+            </div>
+    
+          </div>
+        <footer>
+<hr>
+<img src="./files/VCPayment.png" class="footerimg">
+<strong>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Veins Collapsed</strong>
 
-<head>
-  <title>Veins Collapsed - Home</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="./images/Veins Collapsed.png">
-  <!--Importing the font-->
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+</footer>
+      </div>
+      
 
-
-  <script src="https://shoppy.gg/api/embed.js"></script>
-
-  <!-- import the webpage's javascript file -->
-  <script src="/script.js" defer></script>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <!-- import the webpage's stylesheet -->
-
-  <link rel="stylesheet" href="./stylesheets/main.css">
-
-  <!--timer-->
-  <script>
-    function startTime() {
-      var today = new Date();
-      var h = today.getHours();
-      var m = today.getMinutes();
-      var s = today.getSeconds();
-      m = checkTime(m);
-      s = checkTime(s);
-      document.getElementById('timer').innerHTML =
-        h + ":" + m + ":" + s;
-      var t = setTimeout(startTime, 500);
-    }
-    function checkTime(i) {
-      if (i < 10) { i = "0" + i };
-      return i;
-    }
-  </script>
-  <!--timer-->
-</head>
-
-<body onload="startTime()">
-
-  <!--Background Video-->
-  <video autoplay muted loop id="bgVideo">
-    <source src="./videos/video.mp4" type="video/mp4">
-  </video>
-  <!--End of Background Video-->
-
-  <!--Audio and Script-->
-
-
-  <audio  id="audio" loop autoplay preload>
-    <source src="./audio/music.mp3" type="audio/mpeg" /> 
-  </audio>
-  <script>
-    var audio = document.getElementById("myaudio");
-    audio.volume = 0.3;
-  </script>
-  <!--End of Audio and script-->
-
-
-  <hr style="margin-top:-5px;width:330px; float:left;background-color:#222f3e;">
-
-
-  <div id="center">
-    <h1>Veins Collapsed</h1>
-    <h2>Houston787#6113</h2>
-    <h2>Site still on beta</h2><br>
-    <h3><a href="shop.html" class="vst">Visit</a></h3>
-    <hr
-      style="	border: 0;height: 1px;background-image: linear-gradient(to right, rgba(13, 18, 24, 0), rgba(13, 18, 24, 0.75), rgba(13, 18, 24, 0));">
-    <div class="animated fadeInUp">
-
-    </div>
-  </div>
-
-  <h3 id="timer" style="color: white;"></h3>
-  <script src="./js/jquery.js"></script>
-  <script src="./js/marquee.js"></script>
-  <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>

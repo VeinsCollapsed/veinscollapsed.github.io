@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:500&display=swap');
+
+body{
+margin: 0em;
+padding: 0em;
+font-family: 'Arimo', sans-serif;
+overflow-x: hidden;
+
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #000;
+    color: white;
+    font-size: 20px;
+ 
+  }
+
+  .topnav {
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+    background-color: #000;
+    background: rgba(255,255,255,0);
+    border-radius: 12px;
+  position: relative;
+  left: 515px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+ 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 5px solid transparent;
+
+   color: white;
+      transition: color .24s;
+  }
+  .topnav a:hover{
+ border-bottom: 1px solid white;
+ 
+  }
+.col-sm-3{
+    background-color:#e6e6e6;
+    width: 100px;
+
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+
+  }
+  
+
+
+.btn{
+border-bottom-left-radius: 20px ;
+border-top-right-radius: 20px ;
+border: 2px solid black;
+text-align: center;
+font-weight: bold;
+}
+
+.btn:hover{
+color:#376fe9 ;
+
+}
+.price{
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 20px;
+
+}
+
+.desc{
+color:#757575 ; 
+font-weight: bold;
+}
+
+hr{
+background-color: #757575;  
+}
+
+.footerimg{
+height: 200px;
+width: 500px;
+}
+
+.btn2{
+  border-bottom-left-radius: 20px ;
+  border-top-right-radius: 20px ;
+  border: 2px solid red;
+  text-align: center;
+  font-weight: bold;
+font-size: 20px;
+color: red;
+}
