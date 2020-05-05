@@ -54,7 +54,15 @@ overflow-x: hidden;
 
   }
   
+  .col-sm-8{
+    background-color:#e6e6e6;
+    width: 100px;
 
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+
+  }
 
 .btn{
 border-bottom-left-radius: 20px ;
